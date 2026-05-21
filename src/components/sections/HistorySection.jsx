@@ -143,9 +143,9 @@ export const HistorySection = () => {
             margin: "0 0 24px",
             letterSpacing: "-1px",
           }}>
-            Mais de<br />
-            <span style={{ color: T.red }}>100 anos</span><br />
-            de história.
+            Uma tradição<br />
+            <span style={{ color: T.red }}>internacional</span><br />
+            de luta.
           </h2>
 
           <p style={{
@@ -156,8 +156,8 @@ export const HistorySection = () => {
             margin: "0 0 40px",
             fontWeight: 400,
           }}>
-            Uma trajetória de luta, resistência e
-            compromisso com o povo brasileiro.
+            Uma trajetória de organização, teoria e
+            ação revolucionária da classe trabalhadora.
           </p>
 
           {/* Linha decorativa */}

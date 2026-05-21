@@ -82,7 +82,7 @@ export const IdeologySection = () => {
           <SectionHeading
             eyebrow="Nossos Pilares"
             title={`Nossa <span style="color:${T.gold}">Ideologia</span>`}
-            subtitle="Fortalecer a Nação, lutar pelo socialismo — esse é o lema que guia mais de um século de militância comunista no Brasil."
+            subtitle="Organizar a classe trabalhadora, defender o marxismo revolucionário e lutar pela transformação socialista da sociedade."
             light
           />
         </div>

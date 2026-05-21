@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
 /* ═══════════════════════════════════════════════════════════════
-   TRILHA VERMELHA — PCdoB Onboarding & Filiação Funnel
+   TRILHA VERMELHA — ICR Onboarding & Integração Funnel
    Stack: React + GSAP (via CDN) + CSS-in-JS
    ═══════════════════════════════════════════════════════════════ */
 
@@ -241,8 +241,9 @@ const HeroSection = ({ onCtaClick }) => {
           margin: "0 auto 48px",
           fontWeight: 300,
         }}>
-          Há mais de 100 anos construindo um Brasil soberano, democrático e justo.
-          Conheça o PCdoB e descubra como fazer parte dessa luta.
+          A Internacional Comunista Revolucionária organiza militantes
+          pela transformação socialista da sociedade.
+          Conheça a ICR e descubra como fazer parte dessa luta.
         </p>
 
         <button className="hero-cta" onClick={onCtaClick} style={{
@@ -270,7 +271,7 @@ const HeroSection = ({ onCtaClick }) => {
             e.target.style.boxShadow = "0 4px 24px rgba(242,199,68,0.35)";
           }}
         >
-          Quero me filiar ao PCdoB
+          Quero construir a ICR
         </button>
 
         <div className="hero-scroll-hint" style={{
@@ -307,13 +308,11 @@ const HistorySection = () => {
   const ref = useRef(null);
 
   const milestones = [
-    { year: "1922", title: "Fundação", text: "Nascimento do Partido Comunista do Brasil, como expressão da luta organizada da classe trabalhadora, inspirado pela Revolução Russa de 1917." },
-    { year: "1945", title: "Legalidade e Constituinte", text: "Reconquista da legalidade, eleição de 14 deputados e inscrição de conquistas fundamentais na Carta Magna de 1946." },
-    { year: "1962", title: "Reorganização", text: "Reorganização com a sigla PCdoB, garantindo a continuidade revolucionária e a identidade marxista-leninista." },
-    { year: "1972", title: "Guerrilha do Araguaia", text: "Resistência armada contra a ditadura militar — uma epopeia pela liberdade que marcou a história do Brasil." },
-    { year: "1985", title: "Redemocratização", text: "Conquista da legalidade e protagonismo na luta pelas Diretas Já e pela nova Constituição democrática de 1988." },
-    { year: "2003", title: "Governos Populares", text: "Atuação nos governos Lula e Dilma, ampliando a presença nos parlamentos e na transformação social do país." },
-    { year: "2022", title: "100 Anos de Luta", text: "Um século de combate pelo socialismo, pela soberania nacional e pelos direitos do povo brasileiro." },
+    { year: "1848", title: "Manifesto Comunista", text: "A afirmação histórica de que a emancipação da classe trabalhadora precisa ser obra da própria classe trabalhadora." },
+    { year: "1871", title: "Comuna de Paris", text: "A primeira experiência de poder operário moderno, referência permanente para a luta revolucionária internacional." },
+    { year: "1917", title: "Revolução Russa", text: "A classe trabalhadora toma o poder e demonstra, na prática, a possibilidade de uma sociedade socialista." },
+    { year: "1938", title: "Continuidade Revolucionária", text: "A defesa do marxismo revolucionário diante da degeneração burocrática e das derrotas do movimento operário." },
+    { year: "Hoje", title: "Internacional Comunista Revolucionária", text: "Construção de uma organização internacional para unir teoria marxista, formação política e ação militante." },
   ];
 
   useEffect(() => {
@@ -365,7 +364,7 @@ const HistorySection = () => {
             margin: "0 0 16px",
             lineHeight: 1.15,
           }}>
-            Mais de <span style={{ color: T.red }}>100 anos</span> de história
+            Uma tradição <span style={{ color: T.red }}>internacional</span> de luta
           </h2>
           <p style={{
             fontFamily: T.fontBody,
@@ -375,7 +374,7 @@ const HistorySection = () => {
             margin: "0 auto",
             lineHeight: 1.7,
           }}>
-            Uma trajetória de luta, resistência e compromisso com o povo brasileiro e a transformação social.
+            Uma trajetória de organização, teoria e ação revolucionária da classe trabalhadora.
           </p>
         </div>
 
@@ -457,7 +456,7 @@ const IdeologySection = () => {
     {
       icon: "⚒️",
       title: "Marxismo-Leninismo",
-      text: "Fundado na ciência social mais avançada, o PCdoB é guiado pelo materialismo histórico e dialético como método de análise e transformação da realidade.",
+      text: "Fundada na ciência social mais avançada, a ICR é guiada pelo materialismo histórico e dialético como método de análise e transformação da realidade.",
     },
     {
       icon: "🇧🇷",
@@ -547,7 +546,7 @@ const IdeologySection = () => {
             margin: "0 auto",
             lineHeight: 1.7,
           }}>
-            Fortalecer a Nação, lutar pelo socialismo — esse é o lema que guia mais de um século de militância comunista no Brasil.
+            Organizar a classe trabalhadora, defender o marxismo revolucionário e lutar pela transformação socialista da sociedade.
           </p>
         </div>
 
@@ -1089,14 +1088,14 @@ const SuccessScreen = ({ userData }) => {
     { num: "1", title: "Análise do Comitê", desc: "Seu interesse será analisado pelo comitê regional mais próximo de você.", icon: "📋" },
     { num: "2", title: "Contato Inicial", desc: "Um(a) camarada entrará em contato pelo WhatsApp para conversar com você.", icon: "📱" },
     { num: "3", title: "Reunião de Acolhimento", desc: "Você será convidado(a) para uma reunião de apresentação do núcleo local.", icon: "🤝" },
-    { num: "4", title: "Filiação Oficial", desc: "Após a aprovação, você se torna oficialmente filiado(a) ao PCdoB!", icon: "⭐" },
+    { num: "4", title: "Integração à ICR", desc: "Após a aprovação, você passa a construir oficialmente a Internacional Comunista Revolucionária!", icon: "⭐" },
   ];
 
   const channels = [
     {
       name: "Instagram",
       desc: "Acompanhe as publicações diárias",
-      url: "https://www.instagram.com/paborepcdob/",
+      url: "https://www.instagram.com/icr.br.comunista/",
       color: "#E1306C",
       icon: (
         <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
@@ -1105,9 +1104,9 @@ const SuccessScreen = ({ userData }) => {
       ),
     },
     {
-      name: "Portal de Notícias",
-      desc: "Leia as últimas notícias do partido",
-      url: "https://pcdob.org.br/noticias",
+      name: "Portal da ICR",
+      desc: "Leia notícias, análises e materiais da organização",
+      url: "https://marxista.org/",
       color: T.red,
       icon: (
         <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
@@ -1116,9 +1115,9 @@ const SuccessScreen = ({ userData }) => {
       ),
     },
     {
-      name: "Livraria Anita Garibaldi",
-      desc: "Conheça nossa editora e loja",
-      url: "https://www.livrariaanita.com.br/",
+      name: "Manifesto da ICR",
+      desc: "Conheça o programa da Internacional Comunista Revolucionária",
+      url: "https://marxista.org/manifesto-da-internacional-comunista-revolucionaria/",
       color: "#8B4513",
       icon: (
         <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
@@ -1127,9 +1126,9 @@ const SuccessScreen = ({ userData }) => {
       ),
     },
     {
-      name: "Escola João Amazonas",
-      desc: "Formação política online gratuita",
-      url: "http://escolanacionalpcdob.eadbox.com/courses",
+      name: "Organize-se",
+      desc: "Saiba como se somar à construção revolucionária",
+      url: "https://marxismo.org.br/junte-se/",
       color: "#2B6CB0",
       icon: (
         <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
@@ -1387,7 +1386,7 @@ const SuccessScreen = ({ userData }) => {
           color: "rgba(255,255,255,0.4)",
           margin: 0,
         }}>
-          PCdoB — Partido Comunista do Brasil · Fortalecer a Nação, lutar pelo socialismo
+          ICR — Internacional Comunista Revolucionária · Pela revolução socialista mundial
         </p>
       </div>
     </div>

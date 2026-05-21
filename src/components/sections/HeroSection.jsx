@@ -112,7 +112,7 @@ export const HeroSection = ({ onCtaClick }) => {
                 letterSpacing: "3.5px",
                 textTransform: "uppercase",
               }}>
-                PCdoB
+                ICR
               </span>
             </div>
             <span style={{
@@ -122,7 +122,7 @@ export const HeroSection = ({ onCtaClick }) => {
               letterSpacing: "2px",
               textTransform: "uppercase",
             }}>
-              Est. 1922
+              Internacional
             </span>
           </div>
 
@@ -195,9 +195,9 @@ export const HeroSection = ({ onCtaClick }) => {
               fontWeight: 400,
               maxWidth: "380px",
             }}>
-              Há mais de 100 anos o PCdoB constrói um Brasil
-              soberano, democrático e justo. Conheça o partido
-              e descubra onde sua luta começa.
+              A Internacional Comunista Revolucionária organiza
+              militantes pela transformação socialista da sociedade.
+              Conheça a ICR e descubra onde sua luta começa.
             </p>
 
             {/* CTAs */}
@@ -224,9 +224,9 @@ export const HeroSection = ({ onCtaClick }) => {
             gap: "40px",
           }}>
             {[
-              { value: "100+", label: "Anos de história" },
-              { value: "27", label: "Estados ativos" },
-              { value: "200k+", label: "Filiados" },
+              { value: "ICR", label: "Organização internacional" },
+              { value: "BR", label: "Atuação no Brasil" },
+              { value: "∞", label: "Luta socialista" },
             ].map((s) => (
               <div key={s.label}>
                 <div style={{

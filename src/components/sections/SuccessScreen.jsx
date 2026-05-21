@@ -235,7 +235,7 @@ export const SuccessScreen = ({ userData }) => {
           color: "rgba(255,255,255,0.4)",
           margin: 0,
         }}>
-          PCdoB — Partido Comunista do Brasil · Fortalecer a Nação, lutar pelo socialismo
+          ICR — Internacional Comunista Revolucionária · Pela revolução socialista mundial
         </p>
       </div>
     </div>

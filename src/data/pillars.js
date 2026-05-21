@@ -2,7 +2,7 @@ export const pillars = [
   {
     icon: "⚒️",
     title: "Marxismo-Leninismo",
-    text: "Fundado na ciência social mais avançada, o PCdoB é guiado pelo materialismo histórico e dialético como método de análise e transformação da realidade.",
+    text: "Fundada na ciência social mais avançada, a ICR é guiada pelo materialismo histórico e dialético como método de análise e transformação da realidade.",
   },
   {
     icon: "🇧🇷",

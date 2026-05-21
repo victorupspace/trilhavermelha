@@ -4,8 +4,6 @@ import { T } from "./tokens/theme";
 import { Divider } from "./components/ui/Divider";
 import { HeroSection } from "./components/sections/HeroSection";
 import { HistorySection } from "./components/sections/HistorySection";
-import { IdeologySection } from "./components/sections/IdeologySection";
-import { WhyJoinSection } from "./components/sections/WhyJoinSection";
 import { FormSection } from "./components/sections/FormSection";
 import { SuccessScreen } from "./components/sections/SuccessScreen";
 import { SplashScreen } from "./components/sections/SplashScreen";
@@ -49,10 +47,6 @@ export default function App() {
       `}</style>
       <HeroSection onCtaClick={scrollToForm} />
       <HistorySection />
-      <Divider inverted />
-      <IdeologySection />
-      <Divider />
-      <WhyJoinSection onCtaClick={scrollToForm} />
       <Divider inverted />
       <FormSection onSubmitSuccess={handleFormSuccess} formRef={formSectionRef} />
     </div>

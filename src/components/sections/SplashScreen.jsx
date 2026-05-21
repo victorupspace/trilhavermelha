@@ -97,7 +97,7 @@ export const SplashScreen = ({ onComplete }) => {
         <img
           ref={logoRef}
           src="/logo.png"
-          alt="PCdoB"
+          alt="ICR"
           style={{
             width: "110px",
             height: "110px",
@@ -107,7 +107,7 @@ export const SplashScreen = ({ onComplete }) => {
           }}
         />
 
-        {/* Nome do partido */}
+        {/* Nome da organização */}
         <div ref={labelRef} style={{
           fontFamily: T.fontMono,
           fontSize: "11px",
@@ -117,7 +117,7 @@ export const SplashScreen = ({ onComplete }) => {
           textTransform: "uppercase",
           marginBottom: "10px",
         }}>
-          Partido Comunista do Brasil
+          Internacional Comunista Revolucionária
         </div>
 
         {/* Tagline */}
@@ -130,7 +130,7 @@ export const SplashScreen = ({ onComplete }) => {
           letterSpacing: "0.5px",
           marginBottom: "48px",
         }}>
-          Fortalecer a Nação, lutar pelo socialismo.
+          Pela revolução socialista mundial.
         </div>
 
         {/* Linha inferior */}

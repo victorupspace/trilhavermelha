@@ -1,9 +1,7 @@
 export const milestones = [
-  { year: "1922", title: "Fundação", text: "Nascimento do Partido Comunista do Brasil, como expressão da luta organizada da classe trabalhadora, inspirado pela Revolução Russa de 1917." },
-  { year: "1945", title: "Legalidade e Constituinte", text: "Reconquista da legalidade, eleição de 14 deputados e inscrição de conquistas fundamentais na Carta Magna de 1946." },
-  { year: "1962", title: "Reorganização", text: "Reorganização com a sigla PCdoB, garantindo a continuidade revolucionária e a identidade marxista-leninista." },
-  { year: "1972", title: "Guerrilha do Araguaia", text: "Resistência armada contra a ditadura militar — uma epopeia pela liberdade que marcou a história do Brasil." },
-  { year: "1985", title: "Redemocratização", text: "Conquista da legalidade e protagonismo na luta pelas Diretas Já e pela nova Constituição democrática de 1988." },
-  { year: "2003", title: "Governos Populares", text: "Atuação nos governos Lula e Dilma, ampliando a presença nos parlamentos e na transformação social do país." },
-  { year: "2022", title: "100 Anos de Luta", text: "Um século de combate pelo socialismo, pela soberania nacional e pelos direitos do povo brasileiro." },
+  { year: "1848", title: "Manifesto Comunista", text: "A afirmação histórica de que a emancipação da classe trabalhadora precisa ser obra da própria classe trabalhadora." },
+  { year: "1871", title: "Comuna de Paris", text: "A primeira experiência de poder operário moderno, referência permanente para a luta revolucionária internacional." },
+  { year: "1917", title: "Revolução Russa", text: "A classe trabalhadora toma o poder e demonstra, na prática, a possibilidade de uma sociedade socialista." },
+  { year: "1938", title: "Continuidade Revolucionária", text: "A defesa do marxismo revolucionário diante da degeneração burocrática e das derrotas do movimento operário." },
+  { year: "Hoje", title: "Internacional Comunista Revolucionária", text: "Construção de uma organização internacional para unir teoria marxista, formação política e ação militante." },
 ];
